@@ -38,6 +38,11 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "published": {
+      "required": true,
+      "default": true,
+      "type": "boolean"
     }
   }
 }
